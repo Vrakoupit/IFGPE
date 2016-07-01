@@ -10,29 +10,29 @@
 		<div>
 			<h1 class="col-sm-12">IT &amp; Service Management</h1>
 			<ul id="itservice">
-				<li class="col-sm-2">ITIL</li>
-				<li class="col-sm-2">Business Analysis</li>
-				<li class="col-sm-2">IBM</li>
-				<li class="col-sm-2">Cisco</li>
-				<li class="col-sm-2">VMWare</li>
+				<li class="col-sm-2"><a href=""><div>ITIL</div></a></li>
+				<li class="col-sm-2"><a href=""><div>Business Analysis</div></a></li>
+				<li class="col-sm-2"><a href=""><div>IBM</div></a></li>
+				<li class="col-sm-2"><a href=""><div>Cisco</div></a></li>
+				<li class="col-sm-2"><a href=""><div>VMWare</div></a></li>
 			</ul>
 			<h1 class="col-sm-12">Gouvernances des SI</h1>
 			<ul id="gouvernance">
-				<li class="col-sm-2">COBIT 5</li>
-				<li class="col-sm-2">CMMI</li>
-				<li class="col-sm-2">Lean Six Sigma</li>
-				<li class="col-sm-2">TOGAF</li>
-				<li class="col-sm-2">Citrix</li>
+				<li class="col-sm-2"><a href=""><div>COBIT 5</div></a></li>
+				<li class="col-sm-2"><a href=""><div>CMMI</div></a></li>
+				<li class="col-sm-2"><a href=""><div>Lean Six Sigma</div></a></li>
+				<li class="col-sm-2"><a href=""><div>TOGAF</div></a></li>
+				<li class="col-sm-2"><a href=""><div>Citrix</div></a></li>
 			</ul>
 			<h1 class="col-sm-12">Gestion de projet</h1>
 			<ul id="gdp">
-				<li class="col-sm-4">Prince 2</li>
-				<li class="col-sm-4">Agile</li>
-				<li class="col-sm-4">PMI - PMP</li>
+				<li class="col-sm-4"><a href=""><div>Prince 2</div></a></li>
+				<li class="col-sm-4"><a href=""><div>Agile</div></a></li>
+				<li class="col-sm-4"><a href=""><div>PMI - PMP</div></a></li>
 			</ul>
 			<h1 class="col-sm-12">Cours Microsoft</h1>
 			<ul id="microsoft">
-				<li class="col-sm-12">Microsoft Windows Server</li>
+				<li class="col-sm-12"><a href=""><div>Microsoft Windows Server</div></a></li>
 			</ul>
 			<h3>Formations en langues</h3>
 		</div>

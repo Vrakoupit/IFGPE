@@ -6,18 +6,6 @@ body {
 	color: #444444;
 }
 
-ul#menu li,
-ul#itservice li,
-ul#gouvernance li,
-ul#gdp li,
-ul#microsoft li,
-ul#promotion li,
-ul#centrePartenaire li,
-ul#piedDePage li {
-	display:inline-block;
-	text-align: center;
-}
-
 nav.mainNav {
 	position: fixed;
 	top: 0;
@@ -32,7 +20,7 @@ nav.mainNav a {
 nav.mainNav ul#menu {
 	float:right;
 	display: inline-block;
-	padding:18px 0 0 0;
+	padding: 18px 0 0 0;
 }
 
 nav.mainNav ul#menu li {
@@ -40,8 +28,8 @@ nav.mainNav ul#menu li {
 	font-weight:500;
 	color:white;
 	text-transform: uppercase;
-	padding: 0 2em;
 	width: 10em;
+	margin: 0 .5em;
 	text-align:center;
 	vertical-align:middle;
 }
@@ -54,4 +42,16 @@ nav.mainNav ul#menu li a {
 section#intro div img {
 	background-size:cover;
 	width: 100%;
+}
+
+ul#menu li,
+ul#itservice li,
+ul#gouvernance li,
+ul#gdp li,
+ul#microsoft li,
+ul#promotion li,
+ul#centrePartenaire li,
+ul#piedDePage li {
+	display:inline-block;
+	text-align: center;
 }

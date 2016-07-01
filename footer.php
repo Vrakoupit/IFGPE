@@ -1,20 +1,23 @@
 <footer>
-	<section class="container">
-		<div>
-
-		</div>
-		<div>
-			<p>Inscrivez vous à la newsletter</p>
-			<label for="newsletter">E-mail<input type="mail" id="newsletter"></label>
+	<section>
+		<div class="container">
+			<div>
+			</div>
+			<div>
+				<p>Inscrivez vous à la newsletter</p>
+				<label for="newsletter">E-mail<input type="mail" id="newsletter"></label>
+			</div>
 		</div>
 	</section>
 	<section>
-		<ul id="piedDePage">
-			<li class="col-sm-3">Qui sommes-nous</li>
-			<li class="col-sm-3">Nous contacter</li>
-			<li class="col-sm-3">Plan du site</li>
-			<li class="col-sm-3">Réseaux sociaux</li>
-		</ul>
+		<div class="container">
+			<ul id="piedDePage">
+				<li class="col-sm-3">Qui sommes-nous</li>
+				<li class="col-sm-3">Nous contacter</li>
+				<li class="col-sm-3">Plan du site</li>
+				<li class="col-sm-3">Réseaux sociaux</li>
+			</ul>
+		</div>
 	</section>
 </footer>
 
