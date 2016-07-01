@@ -1,38 +1,38 @@
 <?php include 'header.php'; ?>
 
-	<section id="intro">
-		<div>
-			<img src="https://unsplash.it/1500/700?blur" alt="">
-		</div>
-	</section>
-	<div class="container">
+<section id="intro">
+	<div>
+		<img src="https://unsplash.it/1500/700?blur" alt="">
+	</div>
+</section>
+<div class="container">
 	<section id="courses">
 		<div>
 			<h1 class="col-sm-12">IT &amp; Service Management</h1>
 			<ul id="itservice">
-				<li class="col-sm-2"><a href=""><div>ITIL</div></a></li>
-				<li class="col-sm-2"><a href=""><div>Business Analysis</div></a></li>
-				<li class="col-sm-2"><a href=""><div>IBM</div></a></li>
-				<li class="col-sm-2"><a href=""><div>Cisco</div></a></li>
-				<li class="col-sm-2"><a href=""><div>VMWare</div></a></li>
+				<li class="itemCourse"><a href=""><div class="courses">ITIL</div></a></li>
+				<li class="itemCourse"><a href=""><div class="courses">Business Analysis</div></a></li>
+				<li class="itemCourse"><a href=""><div class="courses">IBM</div></a></li>
+				<li class="itemCourse"><a href=""><div class="courses">Cisco</div></a></li>
+				<li class="itemCourse"><a href=""><div class="courses">VMWare</div></a></li>
 			</ul>
 			<h1 class="col-sm-12">Gouvernances des SI</h1>
 			<ul id="gouvernance">
-				<li class="col-sm-2"><a href=""><div>COBIT 5</div></a></li>
-				<li class="col-sm-2"><a href=""><div>CMMI</div></a></li>
-				<li class="col-sm-2"><a href=""><div>Lean Six Sigma</div></a></li>
-				<li class="col-sm-2"><a href=""><div>TOGAF</div></a></li>
-				<li class="col-sm-2"><a href=""><div>Citrix</div></a></li>
+				<li class="itemCourse"><a href=""><div class="courses">COBIT 5</div></a></li>
+				<li class="itemCourse"><a href=""><div class="courses">CMMI</div></a></li>
+				<li class="itemCourse"><a href=""><div class="courses">Lean Six Sigma</div></a></li>
+				<li class="itemCourse"><a href=""><div class="courses">TOGAF</div></a></li>
+				<li class="itemCourse"><a href=""><div class="courses">Citrix</div></a></li>
 			</ul>
 			<h1 class="col-sm-12">Gestion de projet</h1>
 			<ul id="gdp">
-				<li class="col-sm-4"><a href=""><div>Prince 2</div></a></li>
-				<li class="col-sm-4"><a href=""><div>Agile</div></a></li>
-				<li class="col-sm-4"><a href=""><div>PMI - PMP</div></a></li>
+				<li class="itemCourse"><a href=""><div class="courses">Prince 2</div></a></li>
+				<li class="itemCourse"><a href=""><div class="courses">Agile</div></a></li>
+				<li class="itemCourse"><a href=""><div class="courses">PMI - PMP</div></a></li>
 			</ul>
 			<h1 class="col-sm-12">Cours Microsoft</h1>
 			<ul id="microsoft">
-				<li class="col-sm-12"><a href=""><div>Microsoft Windows Server</div></a></li>
+				<li class="itemCourse"><a href=""><div class="courses">Microsoft Windows Server</div></a></li>
 			</ul>
 			<h3>Formations en langues</h3>
 		</div>
@@ -78,14 +78,10 @@
 			</ul>
 		</div>
 	</section>
-	<section>
+	<section id="newsletterFooter">
 		<div class="container">
-			<div>
-			</div>
-			<div>
-				<p>Inscrivez vous à la newsletter</p>
-				<label for="newsletter">E-mail<input type="mail" id="newsletter"></label>
-			</div>
+			<p>Inscrivez vous à la newsletter</p>
+			<label for="newsletter">E-mail<input type="mail" id="newsletter"></label>
 		</div>
 	</section>
 </div>

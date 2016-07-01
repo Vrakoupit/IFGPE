@@ -6,11 +6,20 @@ body {
 	color: #444444;
 }
 
+a {
+	text-decoration: none!important;
+	color: inherit;
+}
+
 nav.mainNav {
 	position: fixed;
 	top: 0;
 	width: 100%;
 	z-index: 1;
+}
+
+ul {
+	padding: 0;
 }
 
 nav.mainNav a {
@@ -54,4 +63,59 @@ ul#centrePartenaire li,
 ul#piedDePage li {
 	display:inline-block;
 	text-align: center;
+}
+
+.itemCourse {
+    margin-bottom: 15px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(150, 150, 150, 0.1);
+    width: 100%;
+    height: 96px;
+    vertical-align: top;
+    background-color: #fff;
+    text-align: center;
+}
+
+ul#itservice li.itemCourse a, 
+ul#gouvernance li.itemCourse a, 
+ul#gdp li.itemCourse a, 
+ul#microsoft li.itemCourse a {
+	display: block;
+    height: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+
+ul#itservice li.itemCourse a div.courses, 
+ul#gouvernance li.itemCourse a div.courses, 
+ul#gdp li.itemCourse a div.courses, 
+ul#microsoft li.itemCourse a div.courses {
+	font-size: 14px;
+    font-weight: bold;
+    max-width: 154px;
+    text-align: left;
+    line-height: 1.2;
+}
+
+@media only screen and (min-width: 1175px) {
+    .itemCourse {
+        width: 210px;
+        margin-bottom: 23px;
+        margin-right: 15px;
+        height: 106px
+    }
+}
+
+section#newsletterFooter div.container {
+	text-align:center;
+}
+
+section#newsletterFooter div.container p {
+	display: inline-block;
+	margin: 0 2em 0 0;
+}
+
+section#newsletterFooter div.container label {
+	margin: 0 0 0 2em;
 }
