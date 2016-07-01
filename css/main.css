@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700,900');
+body {
+	background-color: #EEEEEE;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color: #444444;
+}
+
+ul#menu li,
+ul#itservice li,
+ul#gouvernance li,
+ul#gdp li,
+ul#microsoft li,
+ul#promotion li,
+ul#centrePartenaire li,
+ul#piedDePage li {
+	display:inline-block;
+	text-align: center;
+}
+
+nav.mainNav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+nav.mainNav a {
+	display:inline-block;
+}
+
+nav.mainNav ul#menu {
+	float:right;
+	display: inline-block;
+	padding:18px 0 0 0;
+}
+
+nav.mainNav ul#menu li {
+	font-size:16px;
+	font-weight:500;
+	color:white;
+	text-transform: uppercase;
+	padding: 0 2em;
+	width: 10em;
+	text-align:center;
+	vertical-align:middle;
+}
+
+nav.mainNav ul#menu li a {
+	text-decoration: none;
+	color: inherit;
+}
+
+section#intro div img {
+	background-size:cover;
+	width: 100%;
+}
