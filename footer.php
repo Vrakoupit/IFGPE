@@ -1,16 +1,6 @@
 <footer>
 	<section>
 		<div class="container">
-			<div>
-			</div>
-			<div>
-				<p>Inscrivez vous à la newsletter</p>
-				<label for="newsletter">E-mail<input type="mail" id="newsletter"></label>
-			</div>
-		</div>
-	</section>
-	<section>
-		<div class="container">
 			<ul id="piedDePage">
 				<li class="col-sm-3">Qui sommes-nous</li>
 				<li class="col-sm-3">Nous contacter</li>

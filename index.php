@@ -78,6 +78,16 @@
 			</ul>
 		</div>
 	</section>
+	<section>
+		<div class="container">
+			<div>
+			</div>
+			<div>
+				<p>Inscrivez vous à la newsletter</p>
+				<label for="newsletter">E-mail<input type="mail" id="newsletter"></label>
+			</div>
+		</div>
+	</section>
 </div>
 
 <?php include 'footer.php'; ?>
