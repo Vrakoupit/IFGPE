@@ -3,7 +3,16 @@ body {
 	background-color: #EEEEEE;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
-	color: #444444;
+	color: #000000;
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h1 {
+	margin: 1.5em 0 1em 0;
 }
 
 a {
@@ -75,6 +84,7 @@ ul#piedDePage li {
     vertical-align: top;
     background-color: #fff;
     text-align: center;
+    text-transform: uppercase;
 }
 
 ul#itservice li.itemCourse a, 
@@ -118,4 +128,41 @@ section#newsletterFooter div.container p {
 
 section#newsletterFooter div.container label {
 	margin: 0 0 0 2em;
+}
+
+section#news div > p.actuParagraphe,
+section#calendar > h4 {
+	text-align: center;
+}
+
+section#promotions ul#promotion li {
+	margin: 0 0 4em 0;
+}
+
+section#promotions ul#promotion li div.promotions {
+	background-color: lightgrey;
+	width: 50%;
+	height: 250px;
+	margin:auto;
+	border-radius: 5px;
+
+}
+
+section#newsletterFooter label#labelNewsletter {
+	background-color: orangered;
+	border-radius: 5px;
+	font-weight: 500;
+	color: white;
+}
+
+section#newsletterFooter label#labelNewsletter > input {
+	border: 2px solid orangered;
+	border-radius: 0 5px 5px 0;
+	color: #444444;
+	height: 50px;
+	width: 300px;
+}
+
+section#partners ul#centrePartenaire li div img.imgCentrePartenaire {
+	border-radius: 50%;
 }
