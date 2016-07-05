@@ -1,26 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700,900');
 body {
-	background-color: #EEEEEE;
+	background-color: #F7F7F7;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
-	color: #000000;
+	color: #1F1F1F;
 }
 
 h1, h2, h3 {
 	text-transform: uppercase;
 	text-align: center;
+	/*text-shadow: 3px 3px 2px rgba(100, 100, 100, 0.5);*/
+}
+
+#h2Course {
+	text-transform: none;
+	text-align: center;
+	font-size: 20px;
+	margin: 0 0 3em 0;
 }
 
 h4 {
-  text-align: center;
+	text-align: center;
 }
 
 h1 {
 	margin: 1.5em 0 1em 0;
-}
-
-section#courses h2 {
-  text-align: left;
 }
 
 a {
@@ -30,10 +34,27 @@ a {
 
 nav.mainNav {
 	position: fixed;
+	vertical-align: bottom;
 	top: 0;
 	width: 100%;
 	z-index: 1;
-  background-color: #CFCFCF;
+	background-color: #2B87C4;
+	border: none;
+	text-transform: uppercase;
+	font-weight: 500;
+	text-align: center;
+}
+
+nav.mainNav li a {
+	color: white!important;
+}
+
+.navbar-nav {
+	margin: 7.5px -15px;
+}
+
+nav.mainNav img {
+	height: 70px;
 }
 
 ul {
@@ -85,17 +106,22 @@ ul#piedDePage li {
 }
 
 .itemCourse {
-    margin-bottom: 15px;
-    display: inline-block;
-    border-radius: 5px;
-    box-shadow: 0 0 3px rgba(150, 150, 150, 0.1);
-    width: 100%;
-    height: 96px;
-    vertical-align: top;
-    background-color: #fff;
-    text-align: center;
-    text-transform: uppercase;
-    align-items: center;
+	margin-bottom: 15px;
+	display: inline-block;
+	border-radius: 5px;
+	box-shadow: 0 0 3px rgba(150, 150, 150, 0.2);
+	width: 100%;
+	height: 96px;
+	vertical-align: top;
+	background-color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	align-items: center;
+	transition: all 0.3s ease-in-out;
+}
+
+.itemCourse:hover {
+	background-color: rgba(78, 152, 201, 0.1);
 }
 
 ul#itservice li.itemCourse a, 
@@ -103,9 +129,9 @@ ul#gouvernance li.itemCourse a,
 ul#gdp li.itemCourse a, 
 ul#microsoft li.itemCourse a {
 	display: block;
-    height: inherit;
-    color: inherit;
-    text-decoration: none;
+	height: inherit;
+	color: inherit;
+	text-decoration: none;
 }
 
 ul#itservice li.itemCourse a div.courses, 
@@ -113,48 +139,35 @@ ul#gouvernance li.itemCourse a div.courses,
 ul#gdp li.itemCourse a div.courses, 
 ul#microsoft li.itemCourse a div.courses {
 	font-size: 14px;
-  font-weight: bold;
-  max-width: 154px;
-  text-align: left;
-  line-height: 1.2;
-  height: 100%;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  align-items: center;
+	font-weight: bold;
+	max-width: 154px;
+	text-align: left;
+	line-height: 1.2;
+	height: 100%;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+	align-items: center;
 }
 
 @media only screen and (min-width: 1175px) {
-    .itemCourse {
-        width: 210px;
-        margin-bottom: 23px;
-        margin-right: 15px;
-        height: 106px
-    }
+	.itemCourse {
+		width: 210px;
+		margin-bottom: 23px;
+		margin-right: 15px;
+		height: 106px
+	}
 }
 
 img.svg {
-  height: 55px;
-  width: 55px;
-  margin: 0 .5em 0 1em;
-}
-
-section#newsletterFooter div.container {
-	text-align:center;
-}
-
-section#newsletterFooter div.container p {
-	display: inline-block;
-	margin: 0 2em 0 0;
-}
-
-section#newsletterFooter div.container label {
-	margin: 0 0 0 2em;
+	height: 55px;
+	width: 55px;
+	margin: 0 .5em 0 1em;
 }
 
 section#news div > p.actuParagraphe,
@@ -162,66 +175,113 @@ section#calendar > h4 {
 	text-align: center;
 }
 
+section#newsletterFooter div.container {
+	text-align:center;
+	display: inline-flex;
+	align-items: center;
+}
+
+section#news div.news {
+	background-color: white;
+	box-shadow: 0 0 3px rgba(150, 150, 150, 0.2);
+	border-radius: 5px;
+	margin: 1em 3.3em 2em;
+	overflow: hidden;
+}
+
+section#news div.news {
+
+}
+
+section#calendar {
+	margin: 1em 0 2em;
+}
+
+section#newsletterFooter div.container label {
+}
+
 section#newsletterFooter {
-  background-color: #ff694d;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 1.4em;
-  margin-bottom: 1em;
+	background-image: url(https://unsplash.it/2560/233?image=126&element=FOOTER);
+	height: 100px;
+	display: flex;
+	align-items: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 1.4em;
 }
 
 section#newsletterFooter label#labelNewsletter {
-	background-color: white;
+	border: 2px solid white;
 	border-radius: 5px;
-  font-size: .8em;
-  color: #ff694d;
+	font-size: .8em;
+	color: #ffffff;
 	font-weight: 500;
+	height: 50px;
+	display: inline-flex;
+	align-items: center;
 }
 
 section#newsletterFooter label#labelNewsletter span {
-  padding: 0 1.5em;
-  text-transform: uppercase;
+	padding: 0 1.5em;
+	text-transform: uppercase;
+	border-right: 2px solid white;
 }
 
 section#newsletterFooter label#labelNewsletter > input {
-	border: 1px solid white;
-  background-color: #ff694d;
-	border-radius: 0 5px 5px 0;
-	color: #444444;
-	height: 50px;
-	width: 300px;
+	border: none;
+	background-color: transparent;
+	padding: 0 1em;
+	color: #ffffff;
+	max-width: 300px;
+	transition: all 0.3s ease-in-out;
+}
+
+section#partners {
+	background-color: #FFFFFF;
+}
+
+section#partners h1 {
+	margin: 1.5em 0 1.5em;
 }
 
 section#partners ul#centrePartenaire li {
-	margin: 0 0 2em 0;
+	margin: 0 0 4em 0;
 }
-
 section#partners ul#centrePartenaire li div p {
 	margin: 1em 0;
+	text-transform: uppercase;
+	font-weight: 500;
 }
 
 section#partners ul#centrePartenaire li div img.imgCentrePartenaire {
-	border-radius: 50%;
+	border-radius: 5px;
+	box-shadow: 0 0 3px rgba(150, 150, 150, 0.2);
 }
 
 footer {
-	margin: 0 0 1.5em 0;
+	display: flex;
+	align-items: center;
+	height: 60px;
+	background-color: white;
+	text-transform: uppercase;
+	font-weight: 500;
 }
 
 ul#gdp {
-  margin-bottom: 4em;
+	margin-bottom: 4em;
+}
+
+i.reseaux {
+	margin: 0 1em;
 }
 
 /* PROMOTIONS */
 
 .pricing {
-  background: url(http://csmthemes.com/themes/launch/video/img/bg-pricing.jpg) center center no-repeat scroll;
-  background-size: cover;
-  position: relative;
+	background: url(http://csmthemes.com/themes/launch/video/img/bg-pricing.jpg) center center no-repeat scroll;
+	background-size: cover;
+	position: relative;
 }
 
 .pricing::before { background: rgba(0, 0, 0, 0.30); }
@@ -229,19 +289,24 @@ ul#gdp {
 .pricing h1,
 .pricing h2,
 .pricing h3 {
-  position: relative;
-  margin-bottom: 1.5em;
-  color: #fff;
+	position: relative;
+	margin-bottom: 1.5em;
+	color: #fff;
 }
 
 .plan {
-  background-color: #fff;
-  width: 350px;
-  display: inline-block;
-  border-radius: 5px;
-  margin: 0 1em 5em 1em;
-  max-width: 100%;
-  box-shadow: 0 0 3px rgba(150, 150, 150, 0.1);
+	background-color: #fff;
+	width: 350px;
+	display: inline-block;
+	border-radius: 5px;
+	margin: 0 1em 5em 1em;
+	max-width: 100%;
+	box-shadow: 0 0 3px rgba(150, 150, 150, 0.2);
+	transition: all 0.3s ease-in;
+}
+
+.plan:hover {
+	transform: scale(1.03);
 }
 
 .plan:last-child { margin-bottom: 3em; }
@@ -251,31 +316,31 @@ ul#gdp {
 .plan-features { padding: 1.5em 1em; }
 
 .plan .header h4 {
-  font-size: 21px;
-  margin: 0;
+	font-size: 21px;
+	margin: 0;
 }
 
 .price {
-  background-color: #4db778;
-  color: #fff;
+	background-color: #4db778;
+	color: #fff;
 }
 
 .price-amount {
-  font-size: 90px;
-  line-height: 1;
+	font-size: 90px;
+	line-height: 1;
 }
 
 .period { font-size: 30px; }
 
 .currency {
-  font-size: 30px;
-  vertical-align: top;
-  top: 30px;
+	font-size: 30px;
+	vertical-align: top;
+	top: 30px;
 }
 
 .plan-features li {
-  padding-bottom: .75em;
-  font-size: 17px;
+	padding-bottom: .75em;
+	font-size: 17px;
 }
 
 .plan-features li:last-child { padding-bottom: 0; }
@@ -283,35 +348,35 @@ ul#gdp {
 .plan-features li span { font-weight: 700; }
 
 .plan-features li i {
-  padding-left: .5em;
-  color: #ff694d;
+	padding-left: .5em;
+	color: #ff694d;
 }
 
 div.buy-button > a.btn {
-  padding: 1em 3em;
-  color: #fff;
-  font-size: 18px;
-  text-align: center;
-  text-decoration: none;
-  background-color: #4E98C9;
-  line-height: 1.5;
-  border: none;
-  border-radius: 3px;
-  font-weight: 400;
-  text-transform: uppercase;
-  transition: all 0.3s ease-in-out;
+	padding: 1em 3em;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #4E98C9;
+	line-height: 1.5;
+	border: none;
+	border-radius: 3px;
+	font-weight: 400;
+	text-transform: uppercase;
+	transition: all 0.3s ease-in-out;
 }
 
 div.buy-button > a.btn:hover {
-  color: #fff;
-  background-color: #2B6B95;
+	color: #fff;
+	background-color: #2B6B95;
 }
 
 .buy-button { padding-bottom: 1.5em; }
 
 .buy-button p {
-  margin: 12px 0 0;
-  font-weight: 300;
+	margin: 12px 0 0;
+	font-weight: 300;
 }
 
 /* FIN PROMOTIONS */

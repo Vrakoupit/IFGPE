@@ -8,8 +8,8 @@
 <section id="courses">
 	<div class="container">
 		<h1>Nos formations</h1>
+		<h2 id="h2Course">Retrouvez nos formations d'IT &amp; Service Management, de gouvernances des SI, gestion de projet et d'autres.</h2>
 		<div>
-			<h2 class="col-sm-12">IT &amp; Service Management</h2>
 			<ul id="itservice">
 				<li class="itemCourse"><a href=""><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">ITIL</div></a></li>
 				<li class="itemCourse"><a href=""><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Business Analysis</div></a></li>
@@ -17,7 +17,6 @@
 				<li class="itemCourse"><a href=""><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Cisco</div></a></li>
 				<li class="itemCourse"><a href=""><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">VMWare</div></a></li>
 			</ul>
-			<h2 class="col-sm-12">Gouvernances des SI</h2>
 			<ul id="gouvernance">
 				<li class="itemCourse"><a href=""><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">COBIT 5</div></a></li>
 				<li class="itemCourse"><a href=""><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">CMMI</div></a></li>
@@ -25,7 +24,6 @@
 				<li class="itemCourse"><a href=""><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">TOGAF</div></a></li>
 				<li class="itemCourse"><a href=""><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Citrix</div></a></li>
 			</ul>
-			<h2 class="col-sm-12">Gestion de projet</h2>
 			<ul id="gdp">
 				<li class="itemCourse"><a href=""><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Prince 2</div></a></li>
 				<li class="itemCourse"><a href=""><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Agile</div></a></li>
@@ -44,12 +42,12 @@
 				<div class="plan">
 					<div class="plan-details">
 						<div class="header">
-							<h4>BASIC</h4>
+							<h4>Nom Formation</h4>
 						</div>
 						<div class="price"> <span class="currency">€</span><span class="price-amount">XXXX</span></div>
 						<ul class="plan-features">
-							<li><span>Free</span> Shipping<i class="fa fa-times"></i></li>
-							<li><span>24/7</span> Support<i class="fa fa-check"></i></li>
+							<li><span>XXX-XXX</span> Référence<i class="fa fa-times"></i></li>
+							<li><span>24/7</span> Durée<i class="fa fa-check"></i></li>
 						</ul>
 					</div>
 					<div class="buy-button"><a class="btn" href="#">SIGNUP</a>
@@ -59,12 +57,12 @@
 				<div class="plan">
 					<div class="plan-details">
 						<div class="header">
-							<h4>BASIC</h4>
+							<h4>Nom Formation</h4>
 						</div>
 						<div class="price"> <span class="currency">€</span><span class="price-amount">XXXX</span></div>
 						<ul class="plan-features">
-							<li><span>Free</span> Shipping<i class="fa fa-times"></i></li>
-							<li><span>24/7</span> Support<i class="fa fa-check"></i></li>
+							<li><span>XXX-XXX</span> Référence<i class="fa fa-times"></i></li>
+							<li><span>24/7</span> Durée<i class="fa fa-check"></i></li>
 						</ul>
 					</div>
 					<div class="buy-button"><a class="btn" href="#">SIGNUP</a>
@@ -74,12 +72,12 @@
 				<div class="plan">
 					<div class="plan-details">
 						<div class="header">
-							<h4>PREMIUM</h4>
+							<h4>Nom Formation</h4>
 						</div>
 						<div class="price"> <span class="currency">€</span><span class="price-amount">XXXX</span></div>
 						<ul class="plan-features">
-							<li><span>Free</span> Shipping<i class="fa fa-check"></i></li>
-							<li><span>24/7</span> Support<i class="fa fa-check"></i></li>
+							<li><span>XXX-XXX</span> Référence<i class="fa fa-check"></i></li>
+							<li><span>24/7</span> Durée<i class="fa fa-check"></i></li>
 						</ul>
 					</div>
 					<div class="buy-button"><a class="btn" href="#">SIGNUP</a>
@@ -94,15 +92,18 @@
 	<div class="container">
 		<div>
 			<h1>Actualités</h1>
-			<div class="col-sm-4">
+			<div class="col-sm-3 news">
+				<img src="https://unsplash.it/270/150?blur" alt="">
 				<h2>Le Lorem Ipsum</h2>
 				<p class="actuParagraphe">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique.</p>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-3 news">
+			<img src="https://unsplash.it/270/150?blur" alt="">
 				<h2>Le Lorem Ipsum</h2>
 				<p class="actuParagraphe">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique.</p>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-3 news">
+			<img src="https://unsplash.it/270/150?blur" alt="">
 				<h2>Le Lorem Ipsum</h2>
 				<p class="actuParagraphe">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique.</p>
 			</div>
@@ -119,18 +120,18 @@
 		<div>
 			<h1>Nos centres partenaires</h1>
 			<ul id="centrePartenaire">
-				<li class="col-sm-3"><div><img src="https://unsplash.it/150/150?image=0" alt="" class="imgCentrePartenaire"><p>Avnet Academy</p></div></li>
-				<li class="col-sm-3"><div><img src="https://unsplash.it/150/150?image=0" alt="" class="imgCentrePartenaire"><p>VMWare Partner</p></div></li>
-				<li class="col-sm-3"><div><img src="https://unsplash.it/150/150?image=0" alt="" class="imgCentrePartenaire"><p>ETS</p></div></li>
-				<li class="col-sm-3"><div><img src="https://unsplash.it/150/150?image=0" alt="" class="imgCentrePartenaire"><p>IBM</p></div></li>
+				<li class="col-sm-3"><div><img src="/img/jpg/avnet.jpg" alt="" class="imgCentrePartenaire"><p>Avnet Academy</p></div></li>
+				<li class="col-sm-3"><div><img src="/img/jpg/vmware.jpg" alt="" class="imgCentrePartenaire"><p>VMWare Partner</p></div></li>
+				<li class="col-sm-3"><div><img src="/img/png/ets.png" alt="" class="imgCentrePartenaire"><p>ETS</p></div></li>
+				<li class="col-sm-3"><div><img src="/img/jpg/ibm.jpg" alt="" class="imgCentrePartenaire"><p>IBM</p></div></li>
 			</ul>
 		</div>
 	</div>
 </section>
 <section id="newsletterFooter" class="col-sm-12">
 	<div class="container">
-		<p>Inscrivez vous à la newsletter</p>
-		<label for="newsletter" id="labelNewsletter"><span>E-mail</span><input type="mail" id="newsletter"></label>
+		<p class="col-sm-6">Envie d'en savoir plus ?</p>
+		<label for="newsletter" id="labelNewsletter" class="col-sm-6"><span>Inscrivez-vous<i class="fa fa-envelope" style="margin:0 0 0 1em;"></i></span><input type="mail" id="newsletter" placeholder="E-mail Adress"></label>
 	</div>
 </section>
 <?php include 'footer.php'; ?>
