@@ -11,8 +11,16 @@ h1, h2, h3 {
 	text-align: center;
 }
 
+h4 {
+  text-align: center;
+}
+
 h1 {
 	margin: 1.5em 0 1em 0;
+}
+
+section#courses h2 {
+  text-align: left;
 }
 
 a {
@@ -25,10 +33,12 @@ nav.mainNav {
 	top: 0;
 	width: 100%;
 	z-index: 1;
+  background-color: #CFCFCF;
 }
 
 ul {
 	padding: 0;
+	list-style: none;
 }
 
 nav.mainNav a {
@@ -85,6 +95,7 @@ ul#piedDePage li {
     background-color: #fff;
     text-align: center;
     text-transform: uppercase;
+    align-items: center;
 }
 
 ul#itservice li.itemCourse a, 
@@ -102,10 +113,20 @@ ul#gouvernance li.itemCourse a div.courses,
 ul#gdp li.itemCourse a div.courses, 
 ul#microsoft li.itemCourse a div.courses {
 	font-size: 14px;
-    font-weight: bold;
-    max-width: 154px;
-    text-align: left;
-    line-height: 1.2;
+  font-weight: bold;
+  max-width: 154px;
+  text-align: left;
+  line-height: 1.2;
+  height: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
 }
 
 @media only screen and (min-width: 1175px) {
@@ -115,6 +136,12 @@ ul#microsoft li.itemCourse a div.courses {
         margin-right: 15px;
         height: 106px
     }
+}
+
+img.svg {
+  height: 55px;
+  width: 55px;
+  margin: 0 .5em 0 1em;
 }
 
 section#newsletterFooter div.container {
@@ -135,34 +162,156 @@ section#calendar > h4 {
 	text-align: center;
 }
 
-section#promotions ul#promotion li {
-	margin: 0 0 4em 0;
-}
-
-section#promotions ul#promotion li div.promotions {
-	background-color: lightgrey;
-	width: 50%;
-	height: 250px;
-	margin:auto;
-	border-radius: 5px;
-
+section#newsletterFooter {
+  background-color: #ff694d;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.4em;
+  margin-bottom: 1em;
 }
 
 section#newsletterFooter label#labelNewsletter {
-	background-color: orangered;
+	background-color: white;
 	border-radius: 5px;
+  font-size: .8em;
+  color: #ff694d;
 	font-weight: 500;
-	color: white;
+}
+
+section#newsletterFooter label#labelNewsletter span {
+  padding: 0 1.5em;
+  text-transform: uppercase;
 }
 
 section#newsletterFooter label#labelNewsletter > input {
-	border: 2px solid orangered;
+	border: 1px solid white;
+  background-color: #ff694d;
 	border-radius: 0 5px 5px 0;
 	color: #444444;
 	height: 50px;
 	width: 300px;
 }
 
+section#partners ul#centrePartenaire li {
+	margin: 0 0 2em 0;
+}
+
+section#partners ul#centrePartenaire li div p {
+	margin: 1em 0;
+}
+
 section#partners ul#centrePartenaire li div img.imgCentrePartenaire {
 	border-radius: 50%;
 }
+
+footer {
+	margin: 0 0 1.5em 0;
+}
+
+ul#gdp {
+  margin-bottom: 4em;
+}
+
+/* PROMOTIONS */
+
+.pricing {
+  background: url(http://csmthemes.com/themes/launch/video/img/bg-pricing.jpg) center center no-repeat scroll;
+  background-size: cover;
+  position: relative;
+}
+
+.pricing::before { background: rgba(0, 0, 0, 0.30); }
+
+.pricing h1,
+.pricing h2,
+.pricing h3 {
+  position: relative;
+  margin-bottom: 1.5em;
+  color: #fff;
+}
+
+.plan {
+  background-color: #fff;
+  width: 350px;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 0 1em 5em 1em;
+  max-width: 100%;
+  box-shadow: 0 0 3px rgba(150, 150, 150, 0.1);
+}
+
+.plan:last-child { margin-bottom: 3em; }
+
+.plan .header,
+.price,
+.plan-features { padding: 1.5em 1em; }
+
+.plan .header h4 {
+  font-size: 21px;
+  margin: 0;
+}
+
+.price {
+  background-color: #4db778;
+  color: #fff;
+}
+
+.price-amount {
+  font-size: 90px;
+  line-height: 1;
+}
+
+.period { font-size: 30px; }
+
+.currency {
+  font-size: 30px;
+  vertical-align: top;
+  top: 30px;
+}
+
+.plan-features li {
+  padding-bottom: .75em;
+  font-size: 17px;
+}
+
+.plan-features li:last-child { padding-bottom: 0; }
+
+.plan-features li span { font-weight: 700; }
+
+.plan-features li i {
+  padding-left: .5em;
+  color: #ff694d;
+}
+
+div.buy-button > a.btn {
+  padding: 1em 3em;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4E98C9;
+  line-height: 1.5;
+  border: none;
+  border-radius: 3px;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+div.buy-button > a.btn:hover {
+  color: #fff;
+  background-color: #2B6B95;
+}
+
+.buy-button { padding-bottom: 1.5em; }
+
+.buy-button p {
+  margin: 12px 0 0;
+  font-weight: 300;
+}
+
+/* FIN PROMOTIONS */
