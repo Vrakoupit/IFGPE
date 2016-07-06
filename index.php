@@ -1,8 +1,18 @@
 <?php include 'header.php'; ?>
 
 <section id="intro">
-	<div>
-		<img src="https://unsplash.it/1500/700?blur" alt="">
+	<div class="introBackground">
+		<img src="https://unsplash.it/1500/700?image=126&blur" alt="">
+	</div>
+	<div class="container">
+		<div id="introPres">
+			<h1>Formez vous facilement en IT, gouvernance, gestion de projet</h1>
+			<div class="buttonIntro">
+				<a href="">Je commence une formation</a>
+			</div class="buttonIntro">
+			<h4>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</h4>
+			<i class="fa fa-long-arrow-down fa-3x" style="margin: 220px 0 0 48%;"></i>
+		</div>
 	</div>
 </section>
 <section id="courses">
@@ -98,12 +108,12 @@
 				<p class="actuParagraphe">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique.</p>
 			</div>
 			<div class="col-sm-3 news">
-			<img src="https://unsplash.it/290/150?blur" alt="">
+				<img src="https://unsplash.it/290/150?blur" alt="">
 				<h2>Le Lorem Ipsum</h2>
 				<p class="actuParagraphe">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique.</p>
 			</div>
 			<div class="col-sm-3 news">
-			<img src="https://unsplash.it/290/150?blur" alt="">
+				<img src="https://unsplash.it/290/150?blur" alt="">
 				<h2>Le Lorem Ipsum</h2>
 				<p class="actuParagraphe">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique.</p>
 			</div>

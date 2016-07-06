@@ -20,25 +20,25 @@
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav navbar-right">
-					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Formations en centre</a>
-						<ul class="dropdown-menu">
+					<li class="menuItem">
+						<a href="#">Formations en centre</a>
+						<ul class="dropdownMenu">
 							<li><a href="#">Page 1-1</a></li>
 							<li><a href="#">Page 1-2</a></li>
 							<li><a href="#">Page 1-3</a></li>
 						</ul>
 					</li>
-					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Formations en ligne</a>
-						<ul class="dropdown-menu">
+					<li class="menuItem">
+						<a href="#">Formations en ligne</a>
+						<ul class="dropdownMenu">
 							<li><a href="#">Page 1-1</a></li>
 							<li><a href="#">Page 1-2</a></li>
 							<li><a href="#">Page 1-3</a></li>
 						</ul>
 					</li>
-					<li><a href="#">CPF</a></li>
-					<li><a href="#">Qui sommes nous</a></li>
-					<li><a href="#">Contact</a></li>
+					<li class="menuItem"><a href="#">CPF</a></li>
+					<li class="menuItem"><a href="#">Qui sommes nous</a></li>
+					<li class="menuItem"><a href="#">Contact</a></li>
 				</ul>
 			</div>
 		</div>
