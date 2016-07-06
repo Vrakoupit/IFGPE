@@ -9,9 +9,8 @@
 	</div>
 </footer>
 
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
 </body>
-
-<script scr="js/main.js"></script>
-<script scr="js/jquery-2.1.4.min.js"></script>
-<script scr="js/bootstrap.min.js"></script>
 </html>

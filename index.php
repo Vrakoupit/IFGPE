@@ -93,17 +93,17 @@
 		<div>
 			<h1>Actualités</h1>
 			<div class="col-sm-3 news">
-				<img src="https://unsplash.it/270/150?blur" alt="">
+				<img src="https://unsplash.it/290/150?blur" alt="">
 				<h2>Le Lorem Ipsum</h2>
 				<p class="actuParagraphe">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique.</p>
 			</div>
 			<div class="col-sm-3 news">
-			<img src="https://unsplash.it/270/150?blur" alt="">
+			<img src="https://unsplash.it/290/150?blur" alt="">
 				<h2>Le Lorem Ipsum</h2>
 				<p class="actuParagraphe">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique.</p>
 			</div>
 			<div class="col-sm-3 news">
-			<img src="https://unsplash.it/270/150?blur" alt="">
+			<img src="https://unsplash.it/290/150?blur" alt="">
 				<h2>Le Lorem Ipsum</h2>
 				<p class="actuParagraphe">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique.</p>
 			</div>
@@ -134,4 +134,5 @@
 		<label for="newsletter" id="labelNewsletter" class="col-sm-6"><span>Inscrivez-vous<i class="fa fa-envelope" style="margin:0 0 0 1em;"></i></span><input type="mail" id="newsletter" placeholder="E-mail Adress"></label>
 	</div>
 </section>
+
 <?php include 'footer.php'; ?>

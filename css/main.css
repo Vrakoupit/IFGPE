@@ -38,11 +38,14 @@ nav.mainNav {
 	top: 0;
 	width: 100%;
 	z-index: 1;
-	background-color: #2B87C4;
+	background-color: transparent;
 	border: none;
 	text-transform: uppercase;
 	font-weight: 500;
+	font-size: 14px;
 	text-align: center;
+	transition: all 0.3s ease-in-out;
+	border-radius: 0;
 }
 
 nav.mainNav li a {
@@ -190,7 +193,11 @@ section#news div.news {
 }
 
 section#news div.news {
+	
+}
 
+section#news div.news img {
+	margin-left:-15px;
 }
 
 section#calendar {
