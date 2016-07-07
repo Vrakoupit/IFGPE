@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php include 'headerAccueil.php'; ?>
 
 <section id="intro">
 	<div class="introBackground">

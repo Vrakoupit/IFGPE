@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<nav class="navbar navbar-default" id="mainNav">
+	<nav class="navbar navbar-default mainNav">
 		<div class="container">
 			<div class="navbar-header">
 			<a href="index.php"><img src="/img/png/titrepage.png" alt=""></a>
