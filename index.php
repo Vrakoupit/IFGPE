@@ -140,7 +140,7 @@
 </section>
 <section id="newsletterFooter" class="col-sm-12">
 	<div class="container">
-		<p class="col-sm-6">Envie d'en savoir plus ?</p>
+		<p class="col-sm-5">Envie d'en savoir plus ?</p>
 		<label for="newsletter" id="labelNewsletter" class="col-sm-6"><span>Inscrivez-vous<i class="fa fa-envelope" style="margin:0 0 0 1em;"></i></span><input type="mail" id="newsletter" placeholder="E-mail Adress"></label>
 	</div>
 </section>
