@@ -791,3 +791,67 @@ section.content .block{
 }
 
 /* FIN A PROPOS */
+
+/* DEBUT FORMATION */
+
+section.titreCentre h1,
+section.titreOnline h1 {
+	margin: 4em auto 2em;
+}
+
+ul.filtreFormation {
+	display: inline-block;
+	border-radius: 5px;
+	width: 23%;
+	background-color: #fff;
+	vertical-align: top;
+}
+
+ul.filtreFormation li {
+	display: block;
+	position: relative;
+	padding: 32px 15px 28px 55px;
+	border-bottom: solid 2px #fbfbfb;
+	width: 100%;
+	color: #000;
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+	cursor: pointer;	
+}
+
+section.listeFormation {
+    display: inline-block;
+    width: 76%;
+}
+
+section.listeFormation ul#listeFormation {
+	margin-left: 20px;
+	display: block;
+}
+
+li.lol {
+	margin: 0 0 35px;
+	border-radius: 5px;
+	background-color: #fff;
+	width: 100%;
+	display: table;
+	min-height: 242px;
+}
+
+section.categorieFormation ul {
+	display: table;
+}
+
+section.categorieFormation ul li {
+	display: table-cell;
+	text-align: center;
+	width: 200px;
+	height: 90px;
+	border-radius: 5px;
+	box-shadow: 0 0 3px rgba(150, 150, 150, 0.2);
+	text-transform: uppercase;
+	vertical-align: middle;
+	background-color: #fff;
+	transition: all 0.3s ease-in-out;
+}

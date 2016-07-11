@@ -1,7 +1,7 @@
 <?php include 'header.php' ?>
 <div class="container">
 	<section id="titreCompetence">
-	<div class="">
+	<div>
 			<h1>Nos compétences</h1>
 		</div>
 	</section>
