@@ -8,7 +8,7 @@
 		<div id="introPres">
 			<h1>Formez vous facilement en IT, gouvernance, gestion de projet</h1>
 			<div class="buttonIntro">
-				<a href="">Je commence une formation</a>
+				<a href="formationCentre.php">Je commence une formation</a>
 			</div class="buttonIntro">
 			<h4>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.</h4>
 			<i class="fa fa-long-arrow-down fa-3x" style="margin: 220px 0 0 48%;"></i>
@@ -21,25 +21,25 @@
 		<h2 id="h2Course">Retrouvez nos formations d'IT &amp; Service Management, de gouvernances des SI, gestion de projet et d'autres.</h2>
 		<div>
 			<ul id="itservice">
-				<li class="itemCourse"><a href=""><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">ITIL</div></a></li>
-				<li class="itemCourse"><a href=""><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Business Analysis</div></a></li>
-				<li class="itemCourse"><a href=""><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">IBM</div></a></li>
-				<li class="itemCourse"><a href=""><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Cisco</div></a></li>
-				<li class="itemCourse"><a href=""><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">VMWare</div></a></li>
+				<li class="itemCourse"><a href="formationCentreTri1.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">ITIL</div></a></li>
+				<li class="itemCourse"><a href="formationCentreTri2.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Business Analysis</div></a></li>
+				<li class="itemCourse"><a href="formationCentreTri3.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">IBM</div></a></li>
+				<li class="itemCourse"><a href="formationCentreTri4.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Cisco</div></a></li>
+				<li class="itemCourse"><a href="formationCentreTri5.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">VMWare</div></a></li>
 			</ul>
 			<ul id="gouvernance">
-				<li class="itemCourse"><a href=""><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">COBIT 5</div></a></li>
-				<li class="itemCourse"><a href=""><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">CMMI</div></a></li>
-				<li class="itemCourse"><a href=""><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Lean Six Sigma</div></a></li>
-				<li class="itemCourse"><a href=""><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">TOGAF</div></a></li>
-				<li class="itemCourse"><a href=""><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Citrix</div></a></li>
+				<li class="itemCourse"><a href="formationCentreTri1.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">COBIT 5</div></a></li>
+				<li class="itemCourse"><a href="formationCentreTri2.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">CMMI</div></a></li>
+				<li class="itemCourse"><a href="formationCentreTri3.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Lean Six Sigma</div></a></li>
+				<li class="itemCourse"><a href="formationCentreTri4.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">TOGAF</div></a></li>
+				<li class="itemCourse"><a href="formationCentreTri5.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Citrix</div></a></li>
 			</ul>
 			<ul id="gdp">
-				<li class="itemCourse"><a href=""><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Prince 2</div></a></li>
-				<li class="itemCourse"><a href=""><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Agile</div></a></li>
-				<li class="itemCourse"><a href=""><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">PMI - PMP</div></a></li>
-				<li class="itemCourse" id="microsoftCourse"><a href=""><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Microsoft Windows Server</div></a></li>
-				<li class="itemCourse" id="languageCourse"><a href=""><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Formations langues</div></a></li>
+				<li class="itemCourse"><a href="formationCentreTri1.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Prince 2</div></a></li>
+				<li class="itemCourse"><a href="formationCentreTri2.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Agile</div></a></li>
+				<li class="itemCourse"><a href="formationCentreTri3.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">PMI - PMP</div></a></li>
+				<li class="itemCourse" id="microsoftCourse"><a href="formationCentreTri4.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Microsoft Windows Server</div></a></li>
+				<li class="itemCourse" id="languageCourse"><a href="formationCentreTri5.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Formations langues</div></a></li>
 			</ul>
 		</div>
 	</div>
@@ -103,28 +103,28 @@
 		<div>
 			<h1>Actualités</h1>
 			<div class="col-sm-3 news">
-				<img src="https://unsplash.it/290/150?blur" alt="">
-				<h2>Le Lorem Ipsum</h2>
+				<a href="actualite-single.php"><img src="https://unsplash.it/290/150?blur" alt=""></a>
+				<h2><a href="actualite-single.php">Le Lorem Ipsum</a></h2>
 				<p class="actuParagraphe">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique.</p>
 			</div>
 			<div class="col-sm-3 news">
-				<img src="https://unsplash.it/290/150?blur" alt="">
-				<h2>Le Lorem Ipsum</h2>
+				<a href="actualite-single.php"><img src="https://unsplash.it/290/150?blur" alt=""></a>
+				<h2><a href="actualite-single.php">Le Lorem Ipsum</a></h2>
 				<p class="actuParagraphe">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique.</p>
 			</div>
 			<div class="col-sm-3 news">
-				<img src="https://unsplash.it/290/150?blur" alt="">
-				<h2>Le Lorem Ipsum</h2>
+				<a href="actualite-single.php"><img src="https://unsplash.it/290/150?blur" alt=""></a>
+				<h2><a href="actualite-single.php">Le Lorem Ipsum</a></h2>
 				<p class="actuParagraphe">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique.</p>
 			</div>
 		</div>
 	</div>
 </section>
-<section id="calendar">
+<!-- <section id="calendar">
 	<div class="container">
 		<h4>Voir les prochaines sessions de formation</h4>
 	</div>
-</section>
+</section> -->
 <section id="partners" class="col-sm-12">
 	<div class="container">
 		<div>

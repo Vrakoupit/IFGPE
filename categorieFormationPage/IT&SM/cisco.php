@@ -18,13 +18,3 @@
 		<li>Sans fil : Conçu pour les professionnels du réseau qui configurent, implémentent et supportent des réseaux sans fil.</li>
 	</ul>
 </p>
-
-<ul>
-	<li>Nombre de formations</li>
-	<li>Durée moyenne de formation</li>
-	<li>Formations certifiante</li>
-	<li>Référence</li>
-	<li>Prix moyen</li>
-	<li>Prochaines formations : date</li>
-</ul>
-<p>Voir toutes ces formations</p>

@@ -24,11 +24,11 @@
 					<li class="menuItem">
 						<a href="formationCentre.php">Formations en centre</a>
 						<ul class="dropdownMenu">
-							<li><a href="#">IT &amp Service Management</a></li>
-							<li><a href="#">Gouvernance des SI</a></li>
-							<li><a href="#">Gestion de projet</a></li>
-							<li><a href="#">Cours Microsoft</a></li>
-							<li><a href="#">Formation en langue</a></li>
+							<li><a href="formationCentreTri1.php">IT &amp Service Management</a></li>
+							<li><a href="formationCentreTri2.php">Gouvernance des SI</a></li>
+							<li><a href="formationCentreTri3.php">Gestion de projet</a></li>
+							<li><a href="formationCentreTri4.php">Cours Microsoft</a></li>
+							<li><a href="formationCentreTri5.php">Formation en langue</a></li>
 						</ul>
 					</li>
 					<li class="menuItem">

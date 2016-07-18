@@ -9,4 +9,3 @@
 	<li>Prix moyen</li>
 	<li>Prochaines formations : date</li>
 </ul>
-<p>Voir toutes ces formations</p>

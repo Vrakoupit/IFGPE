@@ -35,6 +35,7 @@ a {
 ul {
 	padding: 0;
 	list-style: none;
+	margin: 0 auto;
 }
 
 /* DEBUT MENU accueil*/
@@ -771,6 +772,27 @@ section#competence {
 	margin-bottom: 100px;
 }
 
+section.content {
+	position: relative;
+}
+
+div.titreActu {
+	/*position: absolute;
+	top: 0;
+	left: 0;*/
+	width: 100%;
+	height: 250px;
+	background-image: url(https://unsplash.it/1000/250?image=120&blur);
+	padding: 50px 0 0;
+	color: #FFFFFF;
+}
+
+div.titreActu span {
+	display: block;
+	font-size: 13px;
+	font-weight: 300;
+}
+
 section.content img {
 	background-size: cover;
 	width: 100%;
@@ -799,6 +821,10 @@ section.titreOnline h1 {
 	margin: 4em auto 2em;
 }
 
+section.titreCentre h3 {
+	margin: 5em auto 2em;
+}
+
 ul.filtreFormation {
 	display: inline-block;
 	border-radius: 5px;
@@ -813,16 +839,18 @@ ul.filtreFormation li {
 	padding: 32px 15px 28px 55px;
 	border-bottom: solid 2px #fbfbfb;
 	width: 100%;
+	height: 80px;
 	color: #000;
 	font-size: 13px;
 	font-weight: 700;
 	text-transform: uppercase;
-	cursor: pointer;	
+	cursor: pointer;
+	overflow: hidden;
 }
 
 section.listeFormation {
     display: inline-block;
-    width: 76%;
+    width: 76.5%;
 }
 
 section.listeFormation ul#listeFormation {
@@ -837,6 +865,7 @@ li.lol {
 	width: 100%;
 	display: table;
 	min-height: 242px;
+	position: relative;
 }
 
 section.categorieFormation ul {
@@ -854,4 +883,352 @@ section.categorieFormation ul li {
 	vertical-align: middle;
 	background-color: #fff;
 	transition: all 0.3s ease-in-out;
+}
+
+div.blockListFormation {
+	position: absolute;
+	background-color: #ffffff;
+	border: 3px solid #2b7fd9;
+	border-radius: 5px 0 0 5px;
+	height: 78px;
+	width: 40px;
+	top: 0;
+	left: 0;
+	transition: all 0.3s ease-in-out;
+}
+
+li.liFiltre:hover div.blockListFormation {
+	background-color: #2b7fd9;
+}
+
+div.descriptionCategorieFormation {
+	padding: 20px 30px 30px 30px;
+	border-right: 6px solid #F7F7F7;
+}
+
+li.lol::before {
+	content: '';
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 60px 60px 0 0;
+	border-color: #2b7fd9 transparent transparent transparent;
+	position: absolute;
+	left: 0;
+}
+
+li.paslol {
+	margin: 0 0 35px;
+	padding: 20px;
+	border-radius: 5px;
+	background-color: #fff;
+	width: 100%;
+	display: table;
+	min-height: 150px;
+	position: relative;
+}
+
+li.paslol h4 {
+	text-transform: uppercase;
+	text-align: left;
+	margin: 2px 0 15px 50px;
+}
+
+li.paslol a.lienInfoFormationSingle {
+	padding: 10px 0;
+	text-align: center;
+	background-color: #FFBD22;
+	color: #FFFFFF;
+	font-weight: 500;
+	border-bottom: 2px solid #FFFFFF;
+	border-radius: 5px 5px 0 0;
+}
+
+li.paslol a.lienInscriptionFormationSingle {
+	padding: 10px 0;
+	text-align: center;
+	background-color: #5D0043;
+	color: #FFFFFF;
+	font-weight: 500;
+	border-top: 2px solid #FFFFFF;
+	border-radius: 0 0 5px 5px;
+}
+
+li.paslol ul li {
+	display: inline-block;
+	min-width: 140px;
+	margin: 5px 10px 5px 10px;
+	vertical-align: middle;
+	padding: 5px 0 0 0;
+}
+
+li.paslol li i {
+	text-align: center;
+	width: 15px;
+	color: #ff694d;
+	margin-right: 10px;
+}
+
+li.paslol::before {
+	content: '';
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 45px 45px 0 0;
+	border-color: #2b7fd9 transparent transparent transparent;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+div.descriptionCategorieFormation h4 {
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	padding-left: 20px;
+	text-align: left;
+}
+
+div.infoCategorieFormation {
+	padding: 40px 20px 20px 10px;
+}
+
+div.infoCategorieFormation li i {
+	color: #ff694d;
+	width: 15px;
+	height: auto;
+	text-align: center;
+	margin: 0 5px 13px 0;
+}
+
+li.lol a.lienCatForm {
+	position: absolute;
+	bottom: 20px;
+	right: 60px;
+	background-color: #FFBD22;
+	padding: 10px 25px;
+	border-radius: 5px;
+	color: #FFFFFF;
+	font-weight: 500;
+}
+
+div.infoCatFormation {
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	box-shadow: 0 0 3px rgba(150, 150, 150, 0.2);
+	padding: 50px;
+	margin: 0 0 30px 0;
+}
+
+section.blockDeroule,
+section.blockProgramme {
+	border-radius: 5px;
+	background-color: #FFFFFF;
+}
+
+section.blockDeroule li i,
+section.blockProgramme li i {
+	color: #ff694d;
+}
+
+section.blockDeroule {
+	min-height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+
+div.deroule {
+	padding: 30px 60px 30px 50px;
+}
+
+div.blockInfo {
+	text-align: center;
+	padding: 30px 30px 100px 30px;
+	border-left: 20px solid #F7F7F7;
+}
+
+div.blockInfo ul.dateInscription p {
+	color: #FFFFFF;
+	font-weight: 500;
+	font-size: 16px;
+	border-radius: 5px;
+	margin: auto;
+}
+
+div.blockInfo ul.dateInscription p span {
+	text-transform: uppercase;
+}
+
+div.blockInfo ul.reference {
+	text-align: left;
+	width: 50%;
+	margin-top: 10px;
+	padding: 0 25px;
+	font-size: 15px;
+	font-weight: 500;
+}
+
+div.blockInfo ul.reference li {
+	margin-bottom: 2px;
+}
+
+div.blockInfo ul.reference i {
+	width: 20px;
+	height: auto;
+	font-size: 16px;
+	vertical-align: middle;
+	text-align: center;
+	margin: 0 5px 0 0;
+}
+
+section.blockDeroule ul.contactInfo {
+	position: absolute;
+	bottom: 0;
+	right: 0px;
+	width: 360px;
+	background-color: #5D0043;
+	font-weight: 500;
+	color: #ffffff;
+}
+
+section.blockProgramme {
+	margin: 35px 0;
+}
+
+section.blockProgramme h3 i {
+	margin: 0 20px;
+}
+
+section.blockProgramme div.col-sm-6 {
+	padding: 30px;
+}
+
+section.footerForm {
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	padding: 1px 0 1px;
+	width: 25%;
+	margin: 30px auto 30px; 
+}
+
+section.footerForm ul#formSociaux {
+	margin: 5px auto 5px;
+	text-align: center;
+}
+
+section.footerForm ul#formSociaux li {
+	display: inline-block;
+}
+
+section.footerForm ul#formSociaux li i {
+	color: #ff694d;
+	width: 30px;
+	margin: 10px 5px;
+}
+
+ul.dateInscription {
+	background-color: #ffbf00;
+	border-radius: 5px;
+	width: 70%;
+	padding: 5px 0;
+	color: #FFFFFF;
+	font-weight: 500;
+	margin: 15px auto 0;
+}
+
+ul.dateInscription li {
+	border-bottom: 2px solid #FFFFFF;
+	padding: 5px 0;
+}
+
+ul.dateInscription li:first-child {
+	padding: 0 0 5px;
+}
+
+ul.dateInscription li:last-child {
+	border: none;
+}
+
+.shareTitre {
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.formesTitre {
+    margin-bottom: 25px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.formesAvis {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 48%;
+    height: 206px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.formesAvis i {
+	position: absolute;
+    left: 28px;
+    bottom: 25px;
+    color: #fff;
+}
+
+.formesAvisGauche {
+	margin-right: 20px;
+}
+
+.formesAvisDroite {
+	margin-left: 20px;
+} 
+
+.etoileAvis {
+    display: block;
+    position: absolute;
+    top: -80px;
+    right: -80px;
+    border-radius: 50%;
+    width: 146px;
+    height: 146px;
+    background-color: #ffbf00;
+}
+
+.formesPhoto {
+    display: inline-block;
+    margin: 38px 8%;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.formesDescAvis {
+    display: inline-block;
+    margin: 0;
+    padding-top: 10%;
+    vertical-align: top;
+    width: 50%;
+    height: 100%;
+}
+
+.formesDescAvisNom {
+    display: inline-block;
+    margin: 0 50px 0 0;
+    width: auto;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.formesDescAvisTexte {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    color: #888888;
+    line-height: 1.5em;
 }

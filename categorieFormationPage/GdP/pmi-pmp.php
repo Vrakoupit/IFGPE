@@ -17,13 +17,3 @@ Une désignation mondialement reconnue qui sert de base à partir de laquelle vo
 Nouveau titre PgMP de PMI est spécifiquement développé pour améliorer les qualifications du professionnel qui dirige la gestion coordonnée de multiples projets et assure le succès final d’un programme.</p>
 
 <p>Afin de satisfaire les exigences de certification Programme de maintien (CCR) et de maintenir un individu en état des titres de compétences actives qui ont atteint le PMP et / ou programme de gestion professionnelle doit courir et rapporter un minimum de 60 unités de formation continue (UFC) au cours de chaque cycle de CCR, qui est généralement de 3 ans, remplir une demande de renouvellement de la certification et de paiement de la taxe de renouvellement, et de réaffirmer le Code de PMI éthique et de déontologie.</p>
-
-<ul>
-	<li>Nombre de formations</li>
-	<li>Durée moyenne de formation</li>
-	<li>Formations certifiante</li>
-	<li>Référence</li>
-	<li>Prix moyen</li>
-	<li>Prochaines formations : date</li>
-</ul>
-<p>Voir toutes ces formations</p>

@@ -3,6 +3,9 @@
 <div class="container">
 	<section class="titreCentre">
 		<h1>Les formations IT & Service Management</h1>
+		<div class="infoCatFormation">
+			<?php include 'categorieFormationPage/IT&SM/itil.php'; ?>
+		</div>
 	</section>
 	<ul class="filtreFormation">
 		<li class="liFiltre"><a href="formationCentre-categorieFormation.php"><div class="blockListFormation"></div>Toutes les formations</li>

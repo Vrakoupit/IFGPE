@@ -10,13 +10,3 @@
 <p>L’accent de la certification PRINCE2 est sur une méthodologie éprouvée et évolutive pour l’exécution du projet. Il est complémentaire à d’autres certifications de gestion de projet tel que l’APMP ou MoR qui mettent davantage l’accent sur les compétences essentielles et les aspects spécifiques de la gestion de projet.</p>
 <p>Afin de maintenir la certification d’un examen, le réenregistrement doit être fait 3 à 5 ans après l’examen initial. Cet examen peut être pris indépendamment ou dans le cadre d’un court "réenregistrement" en cours de recyclage.</p>
 <p>Il est possible de se préparer à la certification PRINCE2 sans assister à un cours, si telle est votre préférence, vous pouvez explorer l’option de PRINCE2 d’apprentissage en ligne.</p>
-
-<ul>
-	<li>Nombre de formations</li>
-	<li>Durée moyenne de formation</li>
-	<li>Formations certifiante</li>
-	<li>Référence</li>
-	<li>Prix moyen</li>
-	<li>Prochaines formations : date</li>
-</ul>
-<p>Voir toutes ces formations</p>
