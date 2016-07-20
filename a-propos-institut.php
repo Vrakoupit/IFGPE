@@ -1,6 +1,9 @@
 <?php include 'header.php' ?>
 
-<div class="container">
+<div class="container" style="position:relative;">
+<div class="fildAriane">
+	Accueil > A propos > L'Institut
+</div>
 	<section id="titreInstitut">
 	<div class="">
 			<h1>L'institut</h1>

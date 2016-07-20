@@ -1,8 +1,10 @@
 <?php include 'header.php' ?>
 
-<div class="container">
+<div class="container" style="position:relative;">
+<div class="fildAriane">
+	Accueil > Actualités > Actualité du xx.xx.xxxx
+</div>
 	<section class="content" style="margin-top: 12em;">
-		<!-- <img src="https://unsplash.it/1000/250?image=120&blur" alt=""> -->
 		<div class="titreActu">
 			<h1>Le Lorem Ipsum<span>Publié le XX.XX.XXXX</span></h1>
 		</div>

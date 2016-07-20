@@ -1,6 +1,10 @@
 <?php include 'header.php' ?>
 
-
+<div class="container" style="position:relative;">
+<div class="fildAriane">
+	Accueil > Contact
+</div>
+</div>
 <section id="titreContact">
 	<div class="container">
 		<h1>Nous contacter</h1>

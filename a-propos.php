@@ -1,6 +1,9 @@
 <?php include 'header.php' ?>
 
-<div class="container">
+<div class="container" style="position:relative;">
+<div class="fildAriane">
+	Accueil > A propos
+</div>
 <section id="titreAbout">
 <h1>Qui sommes-nous ?</h1>
 </section>

@@ -32,6 +32,10 @@ a {
 	color: inherit;
 }
 
+.dropdownMenu a:hover {
+	color: #4E98C9 !important;
+}
+
 ul {
 	padding: 0;
 	list-style: none;
@@ -777,9 +781,6 @@ section.content {
 }
 
 div.titreActu {
-	/*position: absolute;
-	top: 0;
-	left: 0;*/
 	width: 100%;
 	height: 250px;
 	background-image: url(https://unsplash.it/1000/250?image=120&blur);
@@ -848,12 +849,16 @@ ul.filtreFormation li {
 	overflow: hidden;
 }
 
+.ul.filtreFormation li.active {
+    background-color: #212121;
+}
+
 section.listeFormation {
     display: inline-block;
     width: 76.5%;
 }
 
-section.listeFormation ul#listeFormation {
+section.listeFormation ul.containerFormation{
 	margin-left: 20px;
 	display: block;
 }
@@ -885,10 +890,11 @@ section.categorieFormation ul li {
 	transition: all 0.3s ease-in-out;
 }
 
-div.blockListFormation {
+ul.filtreFormation li.liFiltre a::before {
+	content: '';
 	position: absolute;
 	background-color: #ffffff;
-	border: 3px solid #2b7fd9;
+	border: 3px solid #000000;
 	border-radius: 5px 0 0 5px;
 	height: 78px;
 	width: 40px;
@@ -897,24 +903,135 @@ div.blockListFormation {
 	transition: all 0.3s ease-in-out;
 }
 
-li.liFiltre:hover div.blockListFormation {
-	background-color: #2b7fd9;
+ul.filtreFormation li.liFiltre.list-cat-1 a::before {
+	border: 3px solid #FFBD22;
+}
+
+ul.filtreFormation li.liFiltre.list-cat-2 a::before {
+	border: 3px solid #FF694E;
+}
+
+ul.filtreFormation li.liFiltre.list-cat-3 a::before {
+	border: 3px solid #4E98C9;
+}
+
+ul.filtreFormation li.liFiltre.list-cat-4 a::before {
+	border: 3px solid #5d0043;
+}
+
+ul.filtreFormation li.liFiltre.list-cat-5 a::before {
+	border: 3px solid #4db778;
+}
+
+li.liFiltre.activeCat a::before {
+	background-color: #000000 !important;
+}
+
+li.liFiltre.list-cat-1.activeCat a::before {
+	background-color: #FFBD22 !important;
+}
+
+li.liFiltre.list-cat-2.activeCat a::before {
+	background-color: #FF694E !important;
+}
+
+li.liFiltre.list-cat-3.activeCat a::before {
+	background-color: #4E98C9 !important;
+}
+
+li.liFiltre.list-cat-4.activeCat a::before {
+	background-color: #5d0043 !important;
+}
+
+li.liFiltre.list-cat-5.activeCat a::before {
+	background-color: #4db778 !important;
+}
+
+ul.filtreFormation li.liFiltre a:hover::before {
+	background-color: #000000;
+}
+
+ul.filtreFormation li.liFiltre.list-cat-1 a:hover::before {
+	background-color: #FFBD22;
+}
+
+ul.filtreFormation li.liFiltre.list-cat-2 a:hover::before {
+	background-color: #FF694E;
+}
+
+ul.filtreFormation li.liFiltre.list-cat-3 a:hover::before {
+	background-color: #4E98C9;
+}
+
+ul.filtreFormation li.liFiltre.list-cat-4 a:hover::before {
+	background-color: #5d0043;
+}
+
+ul.filtreFormation li.liFiltre.list-cat-5 a:hover::before {
+	background-color: #4db778;
+}
+
+.cat-1 {
+	border-color: #FFBD22 transparent transparent transparent;
+}
+
+.cat-2 {
+	border-color: #FF694E transparent transparent transparent;
+}
+
+.cat-3 {
+	border-color: #4E98C9 transparent transparent transparent;
+}
+
+.cat-4 {
+	border-color: #5d0043 transparent transparent transparent;
+}
+
+.cat-5 {
+	border-color: #4db778 transparent transparent transparent;
+}
+
+.list-cat-1.activeCat::before {
+	content: '';
+	background-color: #FFBD22;
+}
+
+.list-cat-2.activeCat::before {
+	content: '';
+	background-color: #FF694E;
+}
+
+.list-cat-3.activeCat::before {
+	content: '';
+	background-color: #4E98C9;
+}
+
+.list-cat-4.activeCat::before {
+	content: '';
+	background-color: #5d0043;
+}
+
+.list-cat-5.activeCat::before {
+	content: '';
+	background-color: #4db778;
 }
 
 div.descriptionCategorieFormation {
 	padding: 20px 30px 30px 30px;
 	border-right: 6px solid #F7F7F7;
+	position: relative;
+	overflow: hidden;
 }
 
-li.lol::before {
-	content: '';
+li.lol span.catItem {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
 	width: 0;
 	height: 0;
 	border-style: solid;
 	border-width: 60px 60px 0 0;
-	border-color: #2b7fd9 transparent transparent transparent;
-	position: absolute;
-	left: 0;
 }
 
 li.paslol {
@@ -947,7 +1064,7 @@ li.paslol a.lienInfoFormationSingle {
 li.paslol a.lienInscriptionFormationSingle {
 	padding: 10px 0;
 	text-align: center;
-	background-color: #5D0043;
+	background-color: #4db778;
 	color: #FFFFFF;
 	font-weight: 500;
 	border-top: 2px solid #FFFFFF;
@@ -969,16 +1086,15 @@ li.paslol li i {
 	margin-right: 10px;
 }
 
-li.paslol::before {
-	content: '';
+li.paslol span.catItem {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
 	width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 45px 45px 0 0;
-	border-color: #2b7fd9 transparent transparent transparent;
-	position: absolute;
-	left: 0;
-	top: 0;
+	border-width: 60px 60px 0 0;
 }
 
 div.descriptionCategorieFormation h4 {
@@ -1085,9 +1201,9 @@ section.blockDeroule ul.contactInfo {
 	bottom: 0;
 	right: 0px;
 	width: 360px;
-	background-color: #5D0043;
+	background-color: #F7F7F7;
 	font-weight: 500;
-	color: #ffffff;
+	color: #000000;
 }
 
 section.blockProgramme {
@@ -1231,4 +1347,85 @@ ul.dateInscription li:last-child {
     margin-top: 10px;
     color: #888888;
     line-height: 1.5em;
+}
+
+.fildAriane {
+	position: absolute;
+	top: 80px;
+}
+
+
+/* ACTUALITES */
+
+ul.actualites li.actualite {
+	display: inline-block;
+}
+
+.card {
+	background: #ffffff;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.card a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.card__date {
+	position: absolute;
+	top:10px;
+	right: 10px;
+	background: #4E98C9;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	line-height: 13px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+.card__date__day {
+	display: block;
+	font-size: 14px;
+}
+
+.card__date__month {
+	display: block;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+.card__thumb {
+	max-height: 160px;
+	overflow: hidden;
+	background-color: #000;
+}
+
+.card__thumb img {
+	display: block;
+}
+
+.card__body {
+	position: relative;
+	padding: 20px;
+	min-height: 125px;
+}
+
+.card__title {
+	padding: 0 0 10px 0;
+	margin: 0;
+	font-size: 22px;
+	color: #000;
+	font-weight: bold;
+}
+
+.card__subtitle {
+	margin: 0;
+	padding: 0 0 10px 0;
+	color: #4E98C9;
+	font-size: 19px;
 }

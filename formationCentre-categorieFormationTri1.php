@@ -1,6 +1,9 @@
 <?php include 'header.php' ?>
 
-<div class="container">
+<div class="container" style="position:relative;">
+<div class="fildAriane">
+	Accueil > Formations en centre > Formations IT&SM
+</div>
 	<section class="titreCentre">
 		<h1>Les formations IT & Service Management</h1>
 		<div class="infoCatFormation">
@@ -8,17 +11,18 @@
 		</div>
 	</section>
 	<ul class="filtreFormation">
-		<li class="liFiltre"><a href="formationCentre-categorieFormation.php"><div class="blockListFormation"></div>Toutes les formations</li>
-		<li class="liFiltre"><a href="formationCentre-categorieFormationTri1.php"><div class="blockListFormation"></div>ITIL</li>
-		<li class="liFiltre"><a href="formationCentre-categorieFormationTri2.php"><div class="blockListFormation"></div>Business Analysis</li>
-		<li class="liFiltre"><a href="formationCentre-categorieFormationTri3.php"><div class="blockListFormation"></div>IBM</li>
-		<li class="liFiltre"><a href="formationCentre-categorieFormationTri4.php"><div class="blockListFormation"></div>Cisco</li>
-		<li class="liFiltre"><a href="formationCentre-categorieFormationTri5.php"><div class="blockListFormation"></div>VMware</li>
+		<li class="liFiltre"><a href="formationCentre-categorieFormation.php" class="blockListFormation">Toutes les formations</a></li>
+		<li class="liFiltre"><a href="formationCentre-categorieFormationTri1.php" class="blockListFormation list-cat-1 activeCat">ITIL</a></li>
+		<li class="liFiltre"><a href="formationCentre-categorieFormationTri2.php" class="blockListFormation list-cat-2">Business Analysis</a></li>
+		<li class="liFiltre"><a href="formationCentre-categorieFormationTri3.php" class="blockListFormation list-cat-3">IBM</a></li>
+		<li class="liFiltre"><a href="formationCentre-categorieFormationTri4.php" class="blockListFormation list-cat-4">Cisco</a></li>
+		<li class="liFiltre"><a href="formationCentre-categorieFormationTri5.php" class="blockListFormation list-cat-5">VMware</a></li>
 	</ul>
 	<section class="listeFormation">
-		<ul id="listeFormation">
+		<ul class="containerFormation">
 			<li class="paslol">
-				<h4>Titre de la formation</h4>
+				<h4>ITIL - Titre de la formation</h4>
+				<span class="catItem cat-1"></span>
 				<ul class="col-sm-8">
 					<li><i class="fa fa-clock-o"></i>Durée 3 jours</li>
 					<li><i class="fa fa-tag"></i>Référence xxx-xxx</li>
@@ -33,7 +37,8 @@
 				<a href="formationCentre-categorieFormation-single.php" class="col-sm-3 lienInscriptionFormationSingle">S'inscrire à la formation</a>
 			</li>
 			<li class="paslol">
-				<h4>Titre de la formation</h4>
+				<h4>ITIL - Titre de la formation</h4>
+				<span class="catItem cat-1"></span>
 				<ul class="col-sm-8">
 					<li><i class="fa fa-clock-o"></i>Durée 3 jours</li>
 					<li><i class="fa fa-tag"></i>Référence xxx-xxx</li>
@@ -48,7 +53,8 @@
 				<a href="formationCentre-categorieFormation-single.php" class="col-sm-3 lienInscriptionFormationSingle">S'inscrire à la formation</a>
 			</li>
 			<li class="paslol">
-				<h4>Titre de la formation</h4>
+				<h4>ITIL - Titre de la formation</h4>
+				<span class="catItem cat-1"></span>
 				<ul class="col-sm-8">
 					<li><i class="fa fa-clock-o"></i>Durée 3 jours</li>
 					<li><i class="fa fa-tag"></i>Référence xxx-xxx</li>
@@ -63,82 +69,8 @@
 				<a href="formationCentre-categorieFormation-single.php" class="col-sm-3 lienInscriptionFormationSingle">S'inscrire à la formation</a>
 			</li>
 			<li class="paslol">
-				<h4>Titre de la formation</h4>
-				<ul class="col-sm-8">
-					<li><i class="fa fa-clock-o"></i>Durée 3 jours</li>
-					<li><i class="fa fa-tag"></i>Référence xxx-xxx</li>
-					<li><i class="fa fa-certificate"></i>Certifiante</li>
-				</ul>
-				<a href="formationCentre-categorieFormation-single.php" class="col-sm-3 lienInfoFormationSingle">En savoir plus</a>
-				<ul class="col-sm-8">
-					<li><i class="fa fa-eur"></i>Prix xxxx.xx</li>
-					<li><i class="fa fa-calendar"></i>Prochaines dates</li>
-					<li><i class="fa fa-file-pdf-o"></i>PDF</li>
-				</ul>
-				<a href="formationCentre-categorieFormation-single.php" class="col-sm-3 lienInscriptionFormationSingle">S'inscrire à la formation</a>
-			</li>
-			<li class="paslol">
-				<h4>Titre de la formation</h4>
-				<ul class="col-sm-8">
-					<li><i class="fa fa-clock-o"></i>Durée 3 jours</li>
-					<li><i class="fa fa-tag"></i>Référence xxx-xxx</li>
-					<li><i class="fa fa-certificate"></i>Certifiante</li>
-				</ul>
-				<a href="formationCentre-categorieFormation-single.php" class="col-sm-3 lienInfoFormationSingle">En savoir plus</a>
-				<ul class="col-sm-8">
-					<li><i class="fa fa-eur"></i>Prix xxxx.xx</li>
-					<li><i class="fa fa-calendar"></i>Prochaines dates</li>
-					<li><i class="fa fa-file-pdf-o"></i>PDF</li>
-				</ul>
-				<a href="formationCentre-categorieFormation-single.php" class="col-sm-3 lienInscriptionFormationSingle">S'inscrire à la formation</a>
-			</li>
-			<li class="paslol">
-				<h4>Titre de la formation</h4>
-				<ul class="col-sm-8">
-					<li><i class="fa fa-clock-o"></i>Durée 3 jours</li>
-					<li><i class="fa fa-tag"></i>Référence xxx-xxx</li>
-					<li><i class="fa fa-certificate"></i>Certifiante</li>
-				</ul>
-				<a href="formationCentre-categorieFormation-single.php" class="col-sm-3 lienInfoFormationSingle">En savoir plus</a>
-				<ul class="col-sm-8">
-					<li><i class="fa fa-eur"></i>Prix xxxx.xx</li>
-					<li><i class="fa fa-calendar"></i>Prochaines dates</li>
-					<li><i class="fa fa-file-pdf-o"></i>PDF</li>
-				</ul>
-				<a href="formationCentre-categorieFormation-single.php" class="col-sm-3 lienInscriptionFormationSingle">S'inscrire à la formation</a>
-			</li>
-			<li class="paslol">
-				<h4>Titre de la formation</h4>
-				<ul class="col-sm-8">
-					<li><i class="fa fa-clock-o"></i>Durée 3 jours</li>
-					<li><i class="fa fa-tag"></i>Référence xxx-xxx</li>
-					<li><i class="fa fa-certificate"></i>Certifiante</li>
-				</ul>
-				<a href="formationCentre-categorieFormation-single.php" class="col-sm-3 lienInfoFormationSingle">En savoir plus</a>
-				<ul class="col-sm-8">
-					<li><i class="fa fa-eur"></i>Prix xxxx.xx</li>
-					<li><i class="fa fa-calendar"></i>Prochaines dates</li>
-					<li><i class="fa fa-file-pdf-o"></i>PDF</li>
-				</ul>
-				<a href="formationCentre-categorieFormation-single.php" class="col-sm-3 lienInscriptionFormationSingle">S'inscrire à la formation</a>
-			</li>
-			<li class="paslol">
-				<h4>Titre de la formation</h4>
-				<ul class="col-sm-8">
-					<li><i class="fa fa-clock-o"></i>Durée 3 jours</li>
-					<li><i class="fa fa-tag"></i>Référence xxx-xxx</li>
-					<li><i class="fa fa-certificate"></i>Certifiante</li>
-				</ul>
-				<a href="formationCentre-categorieFormation-single.php" class="col-sm-3 lienInfoFormationSingle">En savoir plus</a>
-				<ul class="col-sm-8">
-					<li><i class="fa fa-eur"></i>Prix xxxx.xx</li>
-					<li><i class="fa fa-calendar"></i>Prochaines dates</li>
-					<li><i class="fa fa-file-pdf-o"></i>PDF</li>
-				</ul>
-				<a href="formationCentre-categorieFormation-single.php" class="col-sm-3 lienInscriptionFormationSingle">S'inscrire à la formation</a>
-			</li>
-			<li class="paslol">
-				<h4>Titre de la formation</h4>
+				<h4>ITIL - Titre de la formation</h4>
+				<span class="catItem cat-1"></span>
 				<ul class="col-sm-8">
 					<li><i class="fa fa-clock-o"></i>Durée 3 jours</li>
 					<li><i class="fa fa-tag"></i>Référence xxx-xxx</li>

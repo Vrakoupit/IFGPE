@@ -1,5 +1,8 @@
 <?php include 'header.php' ?>
-<div class="container">
+<div class="container" style="position:relative;">
+<div class="fildAriane">
+	Accueil > A propos > Nos compétences
+</div>
 	<section id="titreCompetence">
 	<div>
 			<h1>Nos compétences</h1>
