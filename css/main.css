@@ -30,8 +30,10 @@ h1 {
 a {
 	text-decoration: none!important;
 	color: inherit;
+	transition: all 0.3s ease-in-out;
 }
 
+.card__title a:hover,
 .dropdownMenu a:hover {
 	color: #4E98C9 !important;
 }
@@ -62,6 +64,11 @@ nav.mainNav {
 
 nav.mainNav li.menuItem > a {
 	color: white!important;
+	transition: all 0.3s ease-in-out;
+}
+
+nav.mainNav li.menuItem > a:hover {
+	color: #4E98C9 !important;
 }
 
 .navbar-nav {
@@ -823,7 +830,7 @@ section.titreOnline h1 {
 }
 
 section.titreCentre h3 {
-	margin: 5em auto 2em;
+	margin: 6em auto 1.4em;
 }
 
 ul.filtreFormation {
@@ -904,7 +911,7 @@ ul.filtreFormation li.liFiltre a::before {
 }
 
 ul.filtreFormation li.liFiltre.list-cat-1 a::before {
-	border: 3px solid #FFBD22;
+	border: 3px solid #FFCF4D;
 }
 
 ul.filtreFormation li.liFiltre.list-cat-2 a::before {
@@ -916,7 +923,7 @@ ul.filtreFormation li.liFiltre.list-cat-3 a::before {
 }
 
 ul.filtreFormation li.liFiltre.list-cat-4 a::before {
-	border: 3px solid #5d0043;
+	border: 3px solid #5D2A38;
 }
 
 ul.filtreFormation li.liFiltre.list-cat-5 a::before {
@@ -928,7 +935,7 @@ li.liFiltre.activeCat a::before {
 }
 
 li.liFiltre.list-cat-1.activeCat a::before {
-	background-color: #FFBD22 !important;
+	background-color: #FFCF4D !important;
 }
 
 li.liFiltre.list-cat-2.activeCat a::before {
@@ -940,7 +947,7 @@ li.liFiltre.list-cat-3.activeCat a::before {
 }
 
 li.liFiltre.list-cat-4.activeCat a::before {
-	background-color: #5d0043 !important;
+	background-color: #5D2A38 !important;
 }
 
 li.liFiltre.list-cat-5.activeCat a::before {
@@ -952,7 +959,7 @@ ul.filtreFormation li.liFiltre a:hover::before {
 }
 
 ul.filtreFormation li.liFiltre.list-cat-1 a:hover::before {
-	background-color: #FFBD22;
+	background-color: #FFCF4D;
 }
 
 ul.filtreFormation li.liFiltre.list-cat-2 a:hover::before {
@@ -964,7 +971,7 @@ ul.filtreFormation li.liFiltre.list-cat-3 a:hover::before {
 }
 
 ul.filtreFormation li.liFiltre.list-cat-4 a:hover::before {
-	background-color: #5d0043;
+	background-color: #5D2A38;
 }
 
 ul.filtreFormation li.liFiltre.list-cat-5 a:hover::before {
@@ -972,7 +979,7 @@ ul.filtreFormation li.liFiltre.list-cat-5 a:hover::before {
 }
 
 .cat-1 {
-	border-color: #FFBD22 transparent transparent transparent;
+	border-color: #FFCF4D transparent transparent transparent;
 }
 
 .cat-2 {
@@ -984,7 +991,7 @@ ul.filtreFormation li.liFiltre.list-cat-5 a:hover::before {
 }
 
 .cat-4 {
-	border-color: #5d0043 transparent transparent transparent;
+	border-color: #5D2A38 transparent transparent transparent;
 }
 
 .cat-5 {
@@ -993,7 +1000,7 @@ ul.filtreFormation li.liFiltre.list-cat-5 a:hover::before {
 
 .list-cat-1.activeCat::before {
 	content: '';
-	background-color: #FFBD22;
+	background-color: #FFCF4D;
 }
 
 .list-cat-2.activeCat::before {
@@ -1008,7 +1015,7 @@ ul.filtreFormation li.liFiltre.list-cat-5 a:hover::before {
 
 .list-cat-4.activeCat::before {
 	content: '';
-	background-color: #5d0043;
+	background-color: #5D2A38;
 }
 
 .list-cat-5.activeCat::before {
@@ -1054,7 +1061,7 @@ li.paslol h4 {
 li.paslol a.lienInfoFormationSingle {
 	padding: 10px 0;
 	text-align: center;
-	background-color: #FFBD22;
+	background-color: #FFCF4D;
 	color: #FFFFFF;
 	font-weight: 500;
 	border-bottom: 2px solid #FFFFFF;
@@ -1120,7 +1127,7 @@ li.lol a.lienCatForm {
 	position: absolute;
 	bottom: 20px;
 	right: 60px;
-	background-color: #FFBD22;
+	background-color: #FFCF4D;
 	padding: 10px 25px;
 	border-radius: 5px;
 	color: #FFFFFF;
@@ -1158,7 +1165,7 @@ div.deroule {
 
 div.blockInfo {
 	text-align: center;
-	padding: 30px 30px 100px 30px;
+	padding: 30px 30px 70px 30px;
 	border-left: 20px solid #F7F7F7;
 }
 
@@ -1191,7 +1198,6 @@ div.blockInfo ul.reference i {
 	width: 20px;
 	height: auto;
 	font-size: 16px;
-	vertical-align: middle;
 	text-align: center;
 	margin: 0 5px 0 0;
 }
@@ -1201,9 +1207,19 @@ section.blockDeroule ul.contactInfo {
 	bottom: 0;
 	right: 0px;
 	width: 360px;
-	background-color: #F7F7F7;
+	background-color: #1CA4BA;
 	font-weight: 500;
-	color: #000000;
+	color: #FFFFFF;
+}
+
+section.blockDeroule ul.contactInfo li {
+	display: inline-block;
+	margin: 0 5px;
+}
+
+section.blockDeroule ul.contactInfo li:first-child {
+	padding-right: 15px; 
+	border-right: 2px solid #ffffff;
 }
 
 section.blockProgramme {
@@ -1245,9 +1261,10 @@ ul.dateInscription {
 	background-color: #ffbf00;
 	border-radius: 5px;
 	width: 70%;
-	padding: 5px 0;
+	padding: 0px 0 5px;
 	color: #FFFFFF;
 	font-weight: 500;
+	overflow: hidden;
 	margin: 15px auto 0;
 }
 
@@ -1256,8 +1273,13 @@ ul.dateInscription li {
 	padding: 5px 0;
 }
 
+ul.dateInscription li a {
+	padding: 5px 50px 5px 50px;
+}
+
 ul.dateInscription li:first-child {
-	padding: 0 0 5px;
+	padding: 5px 0 5px;
+	background-color: #F4502A;
 }
 
 ul.dateInscription li:last-child {
@@ -1428,4 +1450,87 @@ ul.actualites li.actualite {
 	padding: 0 0 10px 0;
 	color: #4E98C9;
 	font-size: 19px;
+}
+
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    cursor: pointer;
+    position: fixed;
+    visibility: hidden;
+    z-index: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+.popup {
+    background-color: #ffffff;
+    display: inline-block;
+    border: 2px solid #ffffff;
+    width: 70%;
+    height: 70%;
+    left: 15%;
+    opacity: 0;
+    position: fixed;
+    text-align: justify;
+    top: 17%;
+    visibility: hidden;
+    z-index: 10;
+    border-radius: 5px;
+    transition: opacity 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.popup h2 {
+	background-color: #4E98C9;
+	color: #FFFFFF;
+	margin: 0;
+	padding: 15px 0 10px;
+}
+
+.overlay:target+.popup {
+    opacity: 1;
+    visibility: visible;
+}
+.close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #ffffff;
+}
+.close:before {
+    color: #ffffff;
+    content: "\f057";
+    font-family: FontAwesome;
+    font-size: 24px;
+    opacity: 1 !important;
+}
+.close:hover {
+	opacity: 1;
+}
+.popup p, .popup div {
+    margin-bottom: 10px;
+}
+.popup label {
+    display: block;
+    text-align: left;
+    width: 120px;
+}
+.popup input[type="text"] {
+    border: 1px solid;
+    border-color: #999 #ccc #ccc;
+    margin: 0;
+    padding: 2px;
+    border-radius: 2px;
+}
+.popup input[type="text"]:hover {
+    border-color: #555 #888 #888;
 }

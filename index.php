@@ -21,11 +21,11 @@
 		<h2 id="h2Course">Retrouvez nos formations d'IT &amp; Service Management, de gouvernances des SI, gestion de projet et d'autres.</h2>
 		<div>
 			<ul id="itservice">
-				<li class="itemCourse"><a href="formationCentre.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">ITIL</div></a></li>
-				<li class="itemCourse"><a href="formationCentre.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Business Analysis</div></a></li>
-				<li class="itemCourse"><a href="formationCentre.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">IBM</div></a></li>
-				<li class="itemCourse"><a href="formationCentre.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Cisco</div></a></li>
-				<li class="itemCourse"><a href="formationCentre.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">VMWare</div></a></li>
+				<li class="itemCourse"><a href="formationCentre-categorieFormationTri1.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">ITIL</div></a></li>
+				<li class="itemCourse"><a href="formationCentre-categorieFormationTri2.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Business Analysis</div></a></li>
+				<li class="itemCourse"><a href="formationCentre-categorieFormationTri3.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">IBM</div></a></li>
+				<li class="itemCourse"><a href="formationCentre-categorieFormationTri4.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Cisco</div></a></li>
+				<li class="itemCourse"><a href="formationCentre-categorieFormationTri5.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">VMWare</div></a></li>
 			</ul>
 			<ul id="gouvernance">
 				<li class="itemCourse"><a href="formationCentre.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">COBIT 5</div></a></li>
@@ -38,8 +38,8 @@
 				<li class="itemCourse"><a href="formationCentre.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Prince 2</div></a></li>
 				<li class="itemCourse"><a href="formationCentre.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Agile</div></a></li>
 				<li class="itemCourse"><a href="formationCentre.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">PMI - PMP</div></a></li>
-				<li class="itemCourse" id="microsoftCourse"><a href="formationCentre.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Microsoft Windows Server</div></a></li>
-				<li class="itemCourse" id="languageCourse"><a href="formationCentre.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Formations langues</div></a></li>
+				<li class="itemCourse" id="microsoftCourse"><a href="formationCentretri4.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Microsoft Windows Server</div></a></li>
+				<li class="itemCourse" id="languageCourse"><a href="formationCentreTri5.php"><div class="courses"><img src="/img/svg/business.svg" alt="" class="svg">Formations langues</div></a></li>
 			</ul>
 		</div>
 	</div>

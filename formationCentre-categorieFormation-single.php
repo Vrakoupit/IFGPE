@@ -1,9 +1,9 @@
 <?php include 'header.php' ?>
 
 <div class="container" style="position:relative;">
-<div class="fildAriane">
-	Accueil > Formations en centre > Formations IT&SM > ITIL Foundation
-</div>
+	<div class="fildAriane">
+		Accueil > Formations en centre > Formations IT&SM > ITIL Foundation
+	</div>
 	<section class="titreCentre">
 		<h3>ITIL Foundation</h3>
 	</section>
@@ -43,20 +43,80 @@
 					<li>
 						<p>Dates d'inscription<span style="display: block;">Centre Paris</span></p>
 					</li>
-					<li>11/09/2016</li>
-					<li>26/09/2016</li>
-					<li>24/10/2016</li>
-					<li>16/11/2016</li>
-					<li>21/11/2016</li>
-					<li>19/12/2016</li>
+					<li><a href="#inscriptionForm">11/09/2016</a></li>
+					<li><a href="#inscriptionForm">26/09/2016</a></li>
+					<li><a href="#inscriptionForm">24/10/2016</a></li>
+					<li><a href="#inscriptionForm">16/11/2016</a></li>
+					<li><a href="#inscriptionForm">21/11/2016</a></li>
+					<li><a href="#inscriptionForm">19/12/2016</a></li>
 				</ul>
+				<a href="#x" class="overlay" id="inscriptionForm"></a>
+				<div class="popup">
+				<h2>Inscription à la formation<span style="display:block;">ITIL Foundation</span></h2>
+					<div class="col-sm-3">
+					<h4>La société</h4>
+						<label for="societeNom">Nom de la société
+						<input type="text" id="societeNom"/></label>
+						<label for="societeAdresse">Adresse
+						<input type="text" id="societeAdresse"/></label>
+						<label for="societeCP">Code postal
+						<input type="text" id="societeCP"/></label>
+						<label for="societeVille">Ville
+						<input type="text" id="societeVille"/></label>
+						<label for="societeTel">Téléphone
+						<input type="text" id="societeTel"/></label>
+						<label for="societeFax">Fax
+						<input type="text" id="societeFax"/></label>
+						<label for="societeResponsable">Responsable
+						<input type="text" id="societeResponsable"/></label>
+					</div>
+					<div class="col-sm-3">
+					<h4>Le responsable du dossier</h4>
+						<label for="responsableNom">Nom
+						<input type="text" id="responsableNom"/></label>
+						<label for="responsablePrenom">Prénom
+						<input type="text" id="responsablePrenom"/></label>
+						<label for="responsableTel">Téléphone
+						<input type="text" id="responsableTel"/></label>
+						<label for="responsableMail">Mail
+						<input type="text" id="responsableMail"/></label>
+						<label for="responsablePoste">Poste occupé
+						<input type="text" id="responsablePoste"/></label>
+					</div>
+					<div class="col-sm-3">
+						<h4>Informations du salarié à inscrire</h4>
+						<label for="salarieNom">Nom
+						<input type="text" id="salarieNom"/></label>
+						<label for="salarieNom">Prénom
+						<input type="text" id="salarieNom"/></label>
+						<label for="salarieTel">Téléphone
+						<input type="text" id="salarieTel"/></label>
+						<label for="salarieMail">Mail
+						<input type="text" id="salarieMail"/></label>
+						<label for="salariePoste">Poste occupé
+						<input type="text" id="salariePoste"/></label>
+					</div>
+					<div class="col-sm-3">
+						Résumé de votre commande :
+						Inscription formation :
+						« ITIL Inter - Service Strategy »
+						Date de la formation :
+						Du 11/09/2016 au 16/07/2016
+						Durée : 3 jours
+						Lieu : « Paris »
+						Prix : 1810,00 € HT Soit 2172,00 € TTC
+					</div>
+					<div class="col-sm-12">
+					<input type="button" value="Envoyer la fiche" />
+					</div>
+					<a class="close" href="#close"></a>
+				</div>
 			</div>
 		</div>
 
 		<ul class="contactInfo">
-			<div style="float: left; margin: 30px 20px;">Contact</div>
+			<div style="float: left; margin: 10px 10px 10px 20px;padding-right: 10px; border-right: 2px solid white;">Contact</div>
 			<div style="float: left; margin: 10px 10px;">
-				<li>Cyril Kerbel</li>
 				<li>01 42 60 10 55</li>
 				<li>contact@ifgpe.fr</li>
 			</div>
